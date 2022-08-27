@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Amatic+SC:wght@700&family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Amatic+SC:wght@700&family=Pacifico&family=Silkscreen&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.logomarca {
+    height: 72px;
+}
+
+.navbar {
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-item {
+    font-family: 'Amatic SC', cursive;
+    color: #32CCBC;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #000;
+    padding-top: 48px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 400;
+    font-size: 30px;
+    color: #32CCBC;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.conteudo-principal-escrito-subtitulo2 {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #677794;
+    color: white;
+    width: 187px;
+    height: 67px;
+    border: none;
+    box-shadow: 4px 5px 4px black;
+    border-radius: 20px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.conteudo-principal-imagem {
+    height: 230px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 998px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #000;
+    padding-top: 48px;
+    font-family: 'Silkscreen', cursive;
+    font-weight: 300;
+    font-size: 35px;
+    color: #32CCBC;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    color: #000;
+}
+
+.rodape {
+    border-top: 0.4px solid #000;
+    padding: 32px;
+}
+
+.rodape-img {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
